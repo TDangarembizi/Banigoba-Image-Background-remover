@@ -1,1 +1,1 @@
-web: gunicorn imageProcessing:app
+web: gunicorn app:app
