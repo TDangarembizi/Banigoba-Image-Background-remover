@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
 from supabase import create_client
-from backgroundremover.bg import remove
+from rembg import remove
 from dotenv import load_dotenv
 
 import os
