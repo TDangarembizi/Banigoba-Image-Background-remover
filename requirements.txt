@@ -1,5 +1,7 @@
-flask
-supabase
-python-dotenv
-backgroundremover
+Flask
 gunicorn
+python-dotenv
+supabase
+rembg
+Pillow
+onnxruntime
