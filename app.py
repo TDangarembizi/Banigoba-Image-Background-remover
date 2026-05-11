@@ -33,7 +33,7 @@ def remove_background_photoroom(image_bytes):
             "x-api-key": PHOTOROOM_API_KEY
         },
         files={
-            "image_file": image_bytes
+            "imageFile": image_bytes
         },
         data={
             "format": "png"
