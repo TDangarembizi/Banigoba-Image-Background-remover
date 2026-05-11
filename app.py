@@ -40,8 +40,11 @@ def remove_background_photoroom(image_bytes):
         }
     )
 
+    # DEBUG: log response if it fails
     if response.status_code != 200:
-        raise Exception(f"PhotoRoom error: {response.text}")
+        print("PHOTOROOM ERROR:", response.status_code)
+        print("RESPONSE:", response.text)
+        raise Exception(response.text)
 
     return response.content
 
